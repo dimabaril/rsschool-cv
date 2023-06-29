@@ -3,10 +3,19 @@
 ## Contacts:
 * Telegram: @Dimabaril
 * Github: https://github.com/dimabaril
-## Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении учиться и узнавать новое)
-## Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
-## Примеры кода
-## Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код.
-## Образование (включая пройденные курсы и тренинги)
-## Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
-* A2
+* email: dimabaril@gmail.com
+## Skills:
+* Python, Django, Django REST Framework, SQL, PostgreSQL, Docker, Docker-compose, Nginx, Gunicorn, Rest API, CI&CD (Github Actions), Telegram API
+* beginner on: HTML, CSS, Bootstrap
+## Code samples:
+* on Python :)
+```print('Hello world!!!')```
+## Work experience:
+* Lead design engineer, "SKB Orion"
+* Intern on a project: https://github.com/hire-hire/hire-hire
+* That is all on my Github
+## Education:
+* The Bonch-Bruevich Saint Petersburg State University of Telecommunications
+* Yandex practicum. Backend Developer(Python)
+## English:
+* level A2
