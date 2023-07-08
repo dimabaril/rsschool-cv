@@ -106,7 +106,20 @@ body {
 }
 
 .footer {
-    padding: 15px 0;
+    padding: 15px;
     text-align: center;
     background: #c6fdff69;
+}
+
+.icon {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    float: right;
+}
+.rs {
+    background-image: url(assets/svg/rs_school_js.svg);
 }
