@@ -1,3 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
-    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+
+    background-color: #f6fdff;
+}
+
+.header {
+    background: #c6fdff69;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.main-container {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-list {
+    padding: 0 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-item {
+}
+
+.nav-link {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #13757d;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.section {
+    width: 50%;
+    padding: 0 50px;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+.section-item {
+    position: relative;
+}
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #13757d;
+}
+.section-title {
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #13757d;
+}
+.section-item a {
+    color: #13757d;
+    text-decoration: none;  
+    transition: color .3s;
+}
+.section-item a:hover {
+    color: #0075ff;
+}
+.section-img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: #ffffff 7px solid;
+    border-radius: 50%;
+}
+
+.footer {
+    padding: 15px;
+    text-align: center;
+    background: #c6fdff69;
+}
+
+.icon {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    float: right;
+}
+.rs {
+    background-image: url(assets/svg/rs_school_js.svg);
 }
